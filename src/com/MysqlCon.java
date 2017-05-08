@@ -42,7 +42,7 @@ public class MysqlCon{
 	public void dataDump(){
 		try{  
 			
-			String csvFile = "/Users/pranavkaran/Downloads/HR_Data1.csv";
+			String csvFile = "./data/HR_Data1.csv";
 		    BufferedReader br = null;
 		    String line = "";
 		    String cvsSplitBy = ",";

@@ -1,0 +1,24 @@
+{ "_id" : { "$oid" : "591009ba5cb21222ce1ec9e0"} , "fname" : "William" , "lname" : "Skinner" , "email" : "wskinner@anycompany.com" , "change" : [ ]}
+{ "_id" : { "$oid" : "591009ba5cb21222ce1ec9e1"} , "fname" : "Douglas" , "lname" : "Sharp" , "email" : "dsharp@anycompany.com" , "change" : [ ]}
+{ "_id" : { "$oid" : "591009ba5cb21222ce1ec9e2"} , "fname" : "Kathleen" , "lname" : "Allison" , "email" : "kallison@anycompany.com" , "change" : [ ]}
+{ "_id" : { "$oid" : "591009ba5cb21222ce1ec9e3"} , "fname" : "Victor" , "lname" : "Gallegos" , "email" : "vgallegos@anycompany.com" , "change" : [ ]}
+{ "_id" : { "$oid" : "591009ba5cb21222ce1ec9e4"} , "fname" : "Shawn" , "lname" : "Keith" , "email" : "skeith@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "skeith@anycompany.com" , "newvalue" : "test@anycompany.com" , "timeStamp" : "2017-05-07"}]}
+
+
+Update hr SET email = 'testShawn@anycompany.com' where fname = 'Shawn' and lname = 'Keith';
+Update hr SET email = 'testShawn1@anycompany.com' where fname = 'Shawn' and lname = 'Keith';
+Update hr SET email = 'testShawn2@anycompany.com' where fname = 'Shawn' and lname = 'Keith';
+Update hr SET email = 'testShawn3@anycompany.com' where fname = 'Shawn' and lname = 'Keith';
+Update hr SET email = 'testVictor@anycompany.com' where fname = 'Victor' and lname = 'Gallegos';
+Update hr SET email = 'testKathleen@anycompany.com' where fname = 'Kathleen' and lname = 'Allison';
+Update hr SET email = 'testDouglas@anycompany.com' where fname = 'Douglas' and lname = 'Sharp';
+Update hr SET email = 'testWilliam@anycompany.com' where fname = 'William' and lname = 'Skinner';
+
+
+{ "_id" : { "$oid" : "59101cb25cb212235e423506"} , "fname" : "William" , "lname" : "Skinner" , "email" : "testWilliam@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "wskinner@anycompany.com" , "newvalue" : "testWilliam@anycompany.com" , "timeStamp" : "2017-05-08"}]}
+{ "_id" : { "$oid" : "59101cb25cb212235e423507"} , "fname" : "Douglas" , "lname" : "Sharp" , "email" : "testDouglas@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "dsharp@anycompany.com" , "newvalue" : "testDouglas@anycompany.com" , "timeStamp" : "2017-05-08"}]}
+{ "_id" : { "$oid" : "59101cb25cb212235e423508"} , "fname" : "Kathleen" , "lname" : "Allison" , "email" : "testKathleen@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "kallison@anycompany.com" , "newvalue" : "testKathleen@anycompany.com" , "timeStamp" : "2017-05-08"}]}
+{ "_id" : { "$oid" : "59101cb25cb212235e423509"} , "fname" : "Victor" , "lname" : "Gallegos" , "email" : "testVictor@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "vgallegos@anycompany.com" , "newvalue" : "testVictor@anycompany.com" , "timeStamp" : "2017-05-08"}]}
+{ "_id" : { "$oid" : "59101cb25cb212235e42350a"} , "fname" : "Shawn" , "lname" : "Keith" , "email" : "testShawn3@anycompany.com" , "change" : [ { "feild" : "email" , "oldvalue" : "skeith@anycompany.com" , "newvalue" : "testShawn@anycompany.com" , "timeStamp" : "2017-05-08"} , { "feild" : "email" , "oldvalue" : "testShawn@anycompany.com" , "newvalue" : "testShawn1@anycompany.com" , "timeStamp" : "2017-05-08"} , { "feild" : "email" , "oldvalue" : "testShawn1@anycompany.com" , "newvalue" : "testShawn2@anycompany.com" , "timeStamp" : "2017-05-08"} , { "feild" : "email" , "oldvalue" : "testShawn2@anycompany.com" , "newvalue" : "testShawn3@anycompany.com" , "timeStamp" : "2017-05-08"}]}
+
+
